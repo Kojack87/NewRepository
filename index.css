@@ -1,0 +1,80 @@
+.columns{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.first-column{
+    border: 1px solid black;
+    margin: 20px;
+}
+.second-column{
+    border: 1px solid black;
+    margin: 20px;
+}
+.third-column{
+    border: 1px solid black;
+    margin: 20px;
+}
+  @media only screen and (min-width: 768px) {
+    .columns {
+      flex-direction: row;
+    }
+  }
+  .register-form{
+      background-color: orange;
+      margin: 20px;
+  }
+  #email{
+      width: 99%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  #passwd{
+      width: 99%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  #dropdown{
+      width: 99.7%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  .radio-buttons{
+      display: flex;
+  }
+  .submit-bttn{
+      background-color: royalblue;
+      color: white;
+      margin-top: 10px;
+      margin-right: 5px;
+  }
+  .cancel-bttn{
+      background-color: orange;
+      color: crimson;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+  }
+  tr:nth-child(even){
+      background-color: #f2f2f2c0;
+}
+
+.hline{
+    border-bottom: 1px solid black;
+}
+#emailHelp{
+    margin-bottom: 10px;
+}
+#keep{
+    margin-bottom: 10px;
+}
+table{
+    margin-right: 10px;
+}
